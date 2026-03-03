@@ -2,11 +2,10 @@
 published: true
 layout: git-wiki-post
 tags: [article]
-title: Thinking About Lifting: On Frequency, Baselines, Extra Credits, and Fallbacks
+title: "Thinking About Lifting: On Frequency, Baselines, Extra Credits, and Fallbacks"
 author: LennyTheRebel
 ---
 
-# Thinking About Lifting: On Frequency, Baselines, Extra Credits, and Fallbacks
 
 One of my greatest training decisions the last few years was to have a more relaxed and flexible approach to my training days.
 
