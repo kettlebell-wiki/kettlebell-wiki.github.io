@@ -177,7 +177,12 @@ screen and (max-width: 992px) {
 }
 
 .site-title {
-  margin: 0;             /* Removes default browser spacing */
+  display: flex;
+  flex-direction: column; /* Stacks the spans vertically */
+  line-height: 1.1;       /* Tightens the space between lines */
+  margin: 0;
+  font-size: 1.5rem;      /* Adjust size as needed */
+  text-transform: uppercase; /* Optional: often looks better for stacked titles */
 }
 
 .site-title span {
