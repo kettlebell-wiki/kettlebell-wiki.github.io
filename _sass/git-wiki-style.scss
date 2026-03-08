@@ -172,7 +172,7 @@ screen and (max-width: 992px) {
 }
 
 .logo {
-  width: 50px;           /* Adjust size as needed */
+  width: 100px;           /* Adjust size as needed */
   height: auto;
 }
 
@@ -181,6 +181,7 @@ screen and (max-width: 992px) {
 }
 
 .site-title span {
+  font-family: Helvetica, sans-serif;
   display: block;         /* Ensures each span takes its own line */
 }
 
