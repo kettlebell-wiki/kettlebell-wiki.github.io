@@ -165,13 +165,12 @@ screen and (max-width: 992px) {
 }
 
 .git-wiki-main-logo {
-  display: flex;
-  align-items: center; /* Keeps the logo centered relative to the 3 lines */
+  max-width: 270px;
   gap: 15px;
 }
 
 .logo {
-  width: 60px;           /* Adjust size as needed */
+  width: 100px;           /* Adjust size as needed */
   height: auto;
 }
 
