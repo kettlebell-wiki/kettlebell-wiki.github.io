@@ -39,13 +39,12 @@
 
   function darkModeSetLogo() {
   const imageElement = document.getElementById("myLogo");
-  if (document.body.classList.contains("darkmode")) {
-    // Dark mode is active, switch to dark mode image
-    imageElement.src = "https://kettlebell-wiki.github.io/assets/images/tkw-whitetext.svg";
-  } else {
-    // Light mode is active, switch back to light mode image
-    imageElement.src = "https://kettlebell-wiki.github.io/assets/images/tkw-blacktext.svg";
-  }
+  if (localStorage.getItem('darkmode')==="true") {
+      console.log("darkmode activated");
+      imageElement.src = "https://kettlebell-wiki.github.io/assets/images/tkw-whitetext.svg";
+    } else {
+      imageElement.src = "https://kettlebell-wiki.github.io/assets/images/tkw-blacktext.svg";
+    }
   }
     
 
