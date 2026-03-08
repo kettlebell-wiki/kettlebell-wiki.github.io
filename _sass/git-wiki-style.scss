@@ -165,10 +165,9 @@ screen and (max-width: 992px) {
 }
 
 .git-wiki-main-logo {
-  max-width: 270px;
-  display: flex;         /* This aligns items in a row by default */
-  align-items: center;   /* This centers the logo and text vertically */
-  gap: 15px;             /* This creates space between the logo and text */
+  display: flex;
+  align-items: center; /* Keeps the logo centered relative to the 3 lines */
+  gap: 15px;
 }
 
 .logo {
