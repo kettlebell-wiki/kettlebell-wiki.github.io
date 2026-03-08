@@ -175,20 +175,6 @@ screen and (max-width: 992px) {
   height: auto;
 }
 
-.site-title {
-  display: flex;
-  flex-direction: column; /* Stacks the spans vertically */
-  line-height: 1.1;       /* Tightens the space between lines */
-  margin: 0;
-  font-size: 1.5rem;      /* Adjust size as needed */
-  text-transform: uppercase; /* Optional: often looks better for stacked titles */
-  font-weight: bold;
-  font-family: Helvetica, sans-serif;
-}
-
-.site-title span {
-  display: block;         /* Ensures each span takes its own line */
-}
 
 #git-wiki-sidebar .git-wiki-downloads {
   list-style: none;
