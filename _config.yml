@@ -23,15 +23,14 @@ show_downloads: true
 # (string) Specify branch rendered by gitpages allowing wiki tool buttons to work
 git_branch: "master"
 # (string) Url of logo image, it can be full, absolute or relative.
-logo_url: https://kettlebell-wiki.github.io/assets/images/tkw-blacktext.svg
-logo_url_dark: https://kettlebell-wiki.github.io/assets/images/tkw-whitetext.svg
+logo_url: https://kettlebell-wiki.github.io/assets/images/tkw.svg
 # (string) The UA-XXXXX-Y code from google analytic to enable GA on your wiki
 google_analytics: 
 # (string) folder where wiki pages are stored, it's needed for tool buttons
 wiki_folder: "wiki"
 # (boolean) if you're using github wiki as submodule then this config
 # must be enabled to allow tool buttons to work properly
-use_github_wiki: true
+use_github_wiki: True
 # (boolean) Enable "Edit with Prose.io" button in tools, it's a 3rd party
 # service to edit github markdown pages easily
 use_prose_io: false
@@ -141,6 +140,7 @@ inc_before_page_list :
 inc_after_page_list :
 inc_before_post_list :
 inc_after_post_list :
+
 
 
 
