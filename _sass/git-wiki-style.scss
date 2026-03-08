@@ -183,10 +183,11 @@ screen and (max-width: 992px) {
   margin: 0;
   font-size: 1.5rem;      /* Adjust size as needed */
   text-transform: uppercase; /* Optional: often looks better for stacked titles */
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
 }
 
 .site-title span {
-  font-family: Helvetica, sans-serif;
   display: block;         /* Ensures each span takes its own line */
 }
 
