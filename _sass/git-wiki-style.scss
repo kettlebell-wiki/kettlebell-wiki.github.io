@@ -167,7 +167,6 @@ screen and (max-width: 992px) {
 .git-wiki-main-logo {
   max-width: 270px;
   display: flex;
-  align-items: center;
 }
 
 .logo {
@@ -183,6 +182,7 @@ screen and (max-width: 992px) {
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   margin-left: 10px;
+  margin-top: 10px;
 }
 
 #git-wiki-sidebar .git-wiki-downloads {
