@@ -166,6 +166,18 @@ screen and (max-width: 992px) {
 
 .git-wiki-main-logo {
   max-width: 270px;
+  display: flex;         /* This aligns items in a row by default */
+  align-items: center;   /* This centers the logo and text vertically */
+  gap: 15px;             /* This creates space between the logo and text */
+}
+
+.logo {
+  width: 50px;           /* Adjust size as needed */
+  height: auto;
+}
+
+.site-title {
+  margin: 0;             /* Removes default browser spacing */
 }
 
 #git-wiki-sidebar .git-wiki-downloads {
