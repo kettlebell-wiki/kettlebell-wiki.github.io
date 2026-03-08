@@ -36,16 +36,6 @@
       document.body.style.backgroundColor = ""; // reset background color
     }
   }
-
-  function darkModeSetLogo() {
-  const imageElement = document.getElementById("myLogo");
-  if (localStorage.getItem('darkmode')==="true") {
-      console.log("darkmode activated");
-      imageElement.src = "https://kettlebell-wiki.github.io/assets/images/tkw-whitetext.svg";
-    } else {
-      imageElement.src = "https://kettlebell-wiki.github.io/assets/images/tkw-blacktext.svg";
-    }
-  }
     
 
   function addDarkmodeWidget() {
@@ -62,7 +52,6 @@
   }
 
     function startdarkMode(){
-        darkModeSetLogo();
         darkModeSetBodyBg();
     }
 
