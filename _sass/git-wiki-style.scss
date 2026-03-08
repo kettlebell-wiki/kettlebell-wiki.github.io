@@ -171,14 +171,14 @@ screen and (max-width: 992px) {
 .logo {
   width: 80px;           /* Adjust size as needed */
   height: auto;
-  float: left;    
+  float: left;   
+  margin-right: 15px;
 }
 
 
 .logo-title {
   font-family: Helvetica, sans-serif;
   font-weight: bold;
-  margin-left: 15px;
 }
 
 #git-wiki-sidebar .git-wiki-downloads {
