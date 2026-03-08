@@ -166,14 +166,12 @@ screen and (max-width: 992px) {
 
 .git-wiki-main-logo {
   max-width: 270px;
-  display: inline-block;
 }
 
 .logo {
   width: 100px;           /* Adjust size as needed */
   height: auto;
-  display: inline-block;
-  vertical-align: top;
+  float: left;    
 }
 
 
